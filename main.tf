@@ -3,7 +3,7 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket         = "terraform-remote-state-vivek"   
+    bucket         = "jenkins-state-vivek"   
     key            = "terraform.tfstate"
     region         = "us-west-2"
     encrypt        = true
